@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+  <head>NET.ART</head>
+  <body>
+    <h1>NET.ART</h1>
+    <!-- No MIME Type specified. Living on the edge -->
+    <script>
+      (function(allThatIsMighty) {
+        var FUNction = function FUNction() {
+          var array = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+          var rando = array[(Math.random() * array.length) >>> 0];
+          allThatIsMighty.document.body.style.backgroundColor=rando;
+          console.log('BOOM!', rando);
+          setTimeout(FUNction, (Math.random() * 1000) >>> 0);
+        };
+        setTimeout(FUNction, (Math.random() * 1000) >>> 0);
+      })(this);
+    </script>
+  </body>
+</html>
